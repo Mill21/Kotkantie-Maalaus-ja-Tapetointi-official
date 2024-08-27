@@ -1,0 +1,99 @@
+body {
+    background-color: moccasin;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: calc(100vh - 160px); /* Adjust to leave space for footer */
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* Make radio buttons bigger */
+input[type="radio"] {
+    transform: scale(1.3);
+    margin-right: 10px;
+}
+
+/* Additional styling for the form elements */
+input[type="text"], input[type="submit"] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    color: black;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: lightgray;
+}
+
+/* Styling for labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+/* Social media buttons */
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Space between icons */
+    margin-top: 20px; /* Space above the social media icons */
+}
+
+.social-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+}
+
+/* Footer styles */
+footer {
+    background-color: #eee6d3;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container p-4 {
+    padding: 20px;
+}
