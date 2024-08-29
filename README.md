@@ -1,7 +1,9 @@
 # Kotkantien Maalaus ja Tapetointi by Elmeri Kuvaja
+
 Tavoitteenani oli tehdä tälle yritykselle nettisivu ja mielestäni onnistuin
 
 ## Kuvia nettisivusta
+
 Tässä on Etusivu
 
 ![etusivukotka](https://github.com/user-attachments/assets/b2fb20b5-7c64-4080-bf81-5ce544c56710)
@@ -91,6 +93,7 @@ Tässä koodissa näytetään arvostelu karuselli etusivulta.
     </div>
   </div>
 ```
+
 Tässä koodissa näytetään arvosteluiden CSS osiota
 
 ``` CSS
@@ -188,6 +191,7 @@ Tässä koodissa näytetään footer.
     </div>
   </footer>
 ```
+
 Tässä koodissa näytään galleria sivun kuvia
 
 ``` HTML
@@ -212,6 +216,7 @@ Tässä koodissa näytään galleria sivun kuvia
     </div>
   </div>
 ```
+
 Tässä koodissa näytetään värien testaus sivua
 
 ``` HTML
