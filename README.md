@@ -91,3 +91,53 @@ Tässä koodissa näytetään arvostelu karuselli etusivulta.
     </div>
   </div>
 ```
+Tässä koodissa näytetään footer.
+
+``` HTML
+  <!-- Footer-osio -->
+  <footer style="background-color: #eee6d3;">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <!-- Yrityksen esittelyteksti -->
+          <h5 class="mb-3 text-dark">Meistä</h5>
+          <p>
+            Kotkantien maalaus ja tapentointi tekee sinulle semmoisen seinän minkä sinä täsmälleen haluat. Meilla on
+            tiimissä 10 mallikasta tekijää joille ei ole ikinä tullut huonoa palautetta. Tavoitteemme on aina ylittää
+            asiakkaamme odotukset meidän upealla laadullamme. Joten ota meihin yhteyttä ja eiköhän aleta hommiin!
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <!-- Yhteystiedot ja sosiaalisen median linkit -->
+          <h5 class="mb-3 text-dark">Linkit</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Puhelin 044 999 888 99</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Sähköposti info@kotkantienmaalaus.fi</a>
+            </li>
+            <li class="mb-1">
+              <a href="https://www.youtube.com/channel/UCaq6f6DGoCAq4YWvNyP5azQ" target="_blank"
+                style="color: #4f4f4f;">Youtube</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/osao_tekniikka/" target="_blank" style="color: #4f4f4f;">Instagram</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <!-- Google Maps -kartta yrityksen sijainnista -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505864959!2d25.508349977652486!3d65.00146934481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723700718454!5m2!1sen!2sfi"
+            width="400" height="200" style="border: 0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- Tekijänoikeustiedot -->
+    <div class="text-center p-3">
+      Kotkantien Maalaus ja Tapetointi 2024 ©
+    </div>
+  </footer>
+```
