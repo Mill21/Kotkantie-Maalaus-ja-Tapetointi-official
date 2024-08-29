@@ -6,11 +6,13 @@ Tavoitteenani oli tehdä tälle yritykselle nettisivu ja mielestäni onnistuin
 
 Tässä on Etusivu
 
-![etusivukotka](https://github.com/user-attachments/assets/b2fb20b5-7c64-4080-bf81-5ce544c56710)
+![image](https://github.com/user-attachments/assets/2e5d9140-a99a-4489-bbdb-0d75da558092)
+
 
 Tässä on Palvelut sivu
 
-![image](https://github.com/user-attachments/assets/6ae84727-3fab-443c-90a5-31380d83a5d3)
+![image](https://github.com/user-attachments/assets/0ccfa818-fd42-492b-9b05-9707c9ad74c3)
+
 
 Tässä on Galleria sivu
 
@@ -22,7 +24,8 @@ Tässä on Värien testaus sivu
 
 Tässä on Ota yhteyttä sivu
 
-![image](https://github.com/user-attachments/assets/501ecc69-d131-4b53-93c0-9c002018e26b)
+![image](https://github.com/user-attachments/assets/20fd9f4e-5f5e-4f37-a36a-6ea03d69cb33)
+
 
 ## Kuvia koodista
 
@@ -144,52 +147,49 @@ Tässä koodissa näytetään arvosteluiden CSS osiota
 Tässä koodissa näytetään footer.
 
 ``` HTML
-  <!-- Footer-osio -->
-  <footer style="background-color: #eee6d3;">
-    <div class="container p-4">
-      <div class="row">
-        <div class="col-lg-6 col-md-12 mb-4">
-          <!-- Yrityksen esittelyteksti -->
-          <h5 class="mb-3 text-dark">Meistä</h5>
-          <p>
-            Kotkantien maalaus ja tapentointi tekee sinulle semmoisen seinän minkä sinä täsmälleen haluat. Meilla on
-            tiimissä 10 mallikasta tekijää joille ei ole ikinä tullut huonoa palautetta. Tavoitteemme on aina ylittää
-            asiakkaamme odotukset meidän upealla laadullamme. Joten ota meihin yhteyttä ja eiköhän aleta hommiin!
-          </p>
+ <footer style="background-color: #eee6d3;">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4">
+                    <h5 class="mb-3 text-dark">Meistä</h5>
+                    <p>
+                        Kotkantien maalaus ja tapentointi tekee sinulle semmoisen seinän minkä sinä täsmälleen haluat. Meilla on tiimissä 10 mallikasta tekijää joille ei ole ikinä tullut huonoa palautetta. Tavoitteemme on aina ylittää asiakkaamme odotukset meidän upealla laadullamme. Joten ota meihin yhteyttä ja eiköhän aleta hommiin!
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5 class="mb-3 text-dark">Linkit</h5>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-1">
+                            <a href="#!" style="color: #4f4f4f;">Yritys: Kotkantien Maalaus ja Tapetointi</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #4f4f4f;">Osoite: Kotkantie 3, 90100 Oulu</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #4f4f4f;">Puhelin: 044 999 888 99</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="#!" style="color: #4f4f4f;">Sähköposti: info@kotkantienmaalaus.fi</a>
+                        </li>
+                        <li class="mb-1">
+                            <a href="https://www.youtube.com/channel/UCaq6f6DGoCAq4YWvNyP5azQ" target="_blank" style="color: #4f4f4f;">Youtube</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/osao_tekniikka/" target="_blank" style="color: #4f4f4f;">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505864959!2d25.508349977652486!3d65.00146934481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723700718454!5m2!1sen!2sfi"
+                            width="300" height="150" style="border: 0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-6 mb-4">
-          <!-- Yhteystiedot ja sosiaalisen median linkit -->
-          <h5 class="mb-3 text-dark">Linkit</h5>
-          <ul class="list-unstyled mb-0">
-            <li class="mb-1">
-              <a href="#!" style="color: #4f4f4f;">Puhelin 044 999 888 99</a>
-            </li>
-            <li class="mb-1">
-              <a href="#!" style="color: #4f4f4f;">Sähköposti info@kotkantienmaalaus.fi</a>
-            </li>
-            <li class="mb-1">
-              <a href="https://www.youtube.com/channel/UCaq6f6DGoCAq4YWvNyP5azQ" target="_blank"
-                style="color: #4f4f4f;">Youtube</a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/osao_tekniikka/" target="_blank" style="color: #4f4f4f;">Instagram</a>
-            </li>
-          </ul>
+        <div class="text-center p-3">
+            Kotkantien Maalaus ja Tapetointi 2024 ©
         </div>
-        <div class="col-lg-3 col-md-6 mb-4">
-          <!-- Google Maps -kartta yrityksen sijainnista -->
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505864959!2d25.508349977652486!3d65.00146934481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723700718454!5m2!1sen!2sfi"
-            width="400" height="200" style="border: 0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-    </div>
-    <!-- Tekijänoikeustiedot -->
-    <div class="text-center p-3">
-      Kotkantien Maalaus ja Tapetointi 2024 ©
-    </div>
-  </footer>
+    </footer>
 ```
 
 Tässä koodissa näytään galleria sivun kuvia
@@ -300,10 +300,10 @@ Tässä koodissa näytetään ota yhteyttä sivun koodia
 <div class="box-container">
         <div class="box">
             <form>
-                <label for="name">Name:</label><br>
+                <label for="name">Nimi:</label><br>
                 <input type="text" id="name" name="Name" required><br>
                 <label for="email">Sähköposti:</label><br>
-                <input type="text" id="email" name="email" required><br><br>
+                <input type="email" id="email" name="email" required><br><br>
                 <input type="radio" id="maalaus" name="aihe" required value="MAALAUS">
                 <label for="maalaus">Maalaus</label><br>
                 <input type="radio" id="tapetointi" name="aihe" required value="TAPETOINTI">
@@ -337,7 +337,7 @@ Tässä koodissa näytetään ota yhteyttä sivun CSS koodia
     border: 1px solid black;
     padding: 20px;
     background-color: lightblue;
-    width: 80%;
+    width: 40%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
 }
@@ -358,6 +358,7 @@ input[type="radio"] {
 
 /* Additional styling for the form elements */
 input[type="text"],
+input[type="email"],
 input[type="submit"] {
     margin-bottom: 10px;
     width: 100%;
