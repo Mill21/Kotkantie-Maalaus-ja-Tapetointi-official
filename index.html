@@ -1,73 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="./CSS/testisheet.css">
-    <link rel="icon" href="./kuvat/paintbrush.svg" type="image/gif/png/jpg/svg">
-    <script src="script.js"></script>
-    <title>Kotisivu</title>
+  <link rel="stylesheet" href="./CSS/testisheet.css">
+  <link rel="icon" href="./kuvat/paintbrush.svg" type="image/gif/png/jpg/svg">
+  <script src="./Javascript/script.js"></script>
+ 
+  <title>Kotisivu</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
         <object data="./kuvat/paintbrush.svg" type="image/svg+xml">
         </object>
-      <a class="navbar-brand" href="index.html">Kotkantien Maalaus ja Tapetointi</a>
+        <a class="navbar-brand" href="index.html">Kotkantien Maalaus ja Tapetointi</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Kotisivu</a></li>
+        <li><a href="Palvelut.html">Palvelut</a></li>
+        <li><a href="Galleria.html">Galleria</a></li>
+        <li><a href="Värien_testaus.html">Värien testaus</a></li>
+        <li><a href="Ota_yhteyttä.html">Ota yhteyttä</a></li>
+      </ul>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">Kotisivu</a></li>
-      <li><a href="Palvelut.html">Palvelut</a></li>
-      <li><a href="Galleria.html">Galleria</a></li>
-      <li><a href="Värien_testaus.html">Värien testaus</a></li>
-      <li><a href="Ota_yhteyttä.html">Ota yhteyttä</a></li>
-    </ul>
+  </nav>
+  <div class="etusivu_kuva">
+    <p class="otsikko_etusivu">Kotkantien Maalaus ja Tapetointi</p>
   </div>
-</nav>
+  <div class="review-carousel">
+    <!-- Karusellin arvostelut -->
+    <div class="review-item active">
+        <p>★★★★★</p>
+        <p><strong>Erinomainen kokemus!</strong></p>
+        <p>"Palvelu oli loistavaa ja moitteetonta. Suosittelen ehdottomasti kaikille!" - Pekka Pouta.</p>
+    </div>
+    <div class="review-item">
+        <p>★★★★★</p>
+        <p><strong>Aivan huippu!</strong></p>
+        <p>"Työntekijät olivat todella ystävällisiä ja hauskoja. Työt tehtiin huolellisesti ja tulos oli mahtava!" - Iines Ankka.</p>
+    </div>
+    <div class="review-item">
+        <p>★★★★★</p>
+        <p><strong>Yksinkertaisesti paras!</strong></p>
+        <p>"Kaikki meni juuri kuten oli luvattu. Nyt aina, kun kävelen olohuoneeseeni en voi kuin ihailla" - Juha-Pekka Sillan-alla.</p>
+    </div>
+    <div class="review-item">
+        <p>★★★★★</p>
+        <p><strong>Mahtava kokemus!</strong></p>
+        <p>"Yllätyin laadusta todella positiivisesti. Hinta-laatusuhde erinomainen!" - Kalle Keränen.</p>
+    </div>
+    <div class="review-item">
+        <p>★★★★★</p>
+        <p><strong>Täydellinen palvelu!</strong></p>
+        <p>"Kaikki meni juuri niin kuin piti, ei mitään moitittavaa. Suosittelen lämpimästi!" - Raija Penttinen.</p>
+    </div>
+    <div class="review-item">
+        <p>★★★★★</p>
+        <p><strong>Tosi hyvä paikka!</strong></p>
+        <p>"Ystävälliset työntekijät ja tuli laadukas seinä. Jos tulee taas tarvetta tilaamme täältä ihan varmasti!" - Eino Leino.</p>
+    </div>
 
-        <footer style="background-color: #eee6d3;">
-          <div class="container p-4">
-            <div class="row">
-              <div class="col-lg-6 col-md-12 mb-4">
-                <h5 class="mb-3 text-dark">Meistä</h5>
-                <p>
-                  Kotkantien maalaus ja tapentointi tekee sinulle semmoisen seinän minkä sinä täsmälleen haluat. Meilla on tiimissä 10 mallikasta tekijää joille ei ole ikinä tullut huonoa palautetta. Tavoitteemme on aina ylittää asiakkaamme odotukset meidän upealla laadullamme. Joten ota meihin yhteyttä ja eiköhän aleta hommiin!
-                </p>
-              </div>
-              <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 text-dark">Linkit</h5>
-                <ul class="list-unstyled mb-0">
-                  <li class="mb-1">
-                    <a href="#!" style="color: #4f4f4f;">Puhelin 044 999 888 99</a>
-                  </li>
-                  <li class="mb-1">
-                    <a href="#!" style="color: #4f4f4f;">Sähköposti info@kotkantienmaalaus.fi</a>
-                  </li>
-                  <li class="mb-1">
-                    <a href="https://www.youtube.com/channel/UCaq6f6DGoCAq4YWvNyP5azQ" target="_blank" style="color: #4f4f4f;">Youtube</a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/osao_tekniikka/" target="_blank" style="color: #4f4f4f;">Instagram</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="col-lg-3 col-md-6 mb-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505864959!2d25.508349977652486!3d65.00146934481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723700718454!5m2!1sen!2sfi"
+    <!-- Karusellin ohjausnapit -->
+    <div class="carousel-controls">
+        <button id="prev-btn">◀️ Edellinen</button>
+        <button id="next-btn">Seuraava ▶️</button>
+    </div>
+</div>
+
+  
+  
+  <footer style="background-color: #eee6d3;">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h5 class="mb-3 text-dark">Meistä</h5>
+          <p>
+            Kotkantien maalaus ja tapentointi tekee sinulle semmoisen seinän minkä sinä täsmälleen haluat. Meilla on
+            tiimissä 10 mallikasta tekijää joille ei ole ikinä tullut huonoa palautetta. Tavoitteemme on aina ylittää
+            asiakkaamme odotukset meidän upealla laadullamme. Joten ota meihin yhteyttä ja eiköhän aleta hommiin!
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-3 text-dark">Linkit</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Puhelin 044 999 888 99</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Sähköposti info@kotkantienmaalaus.fi</a>
+            </li>
+            <li class="mb-1">
+              <a href="https://www.youtube.com/channel/UCaq6f6DGoCAq4YWvNyP5azQ" target="_blank"
+                style="color: #4f4f4f;">Youtube</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/osao_tekniikka/" target="_blank" style="color: #4f4f4f;">Instagram</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505864959!2d25.508349977652486!3d65.00146934481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723700718454!5m2!1sen!2sfi"
             width="400" height="200" style="border: 0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-            </div>
-          </div>
-          <div class="text-center p-3" >
-            Kotkantien Maalaus ja Tapetointi 2024 ©
-          </div>
-          <!-- Copyright -->
-        </footer>
-        
-      
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3">
+      Kotkantien Maalaus ja Tapetointi 2024 ©
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+
 </body>
+
 </html>
