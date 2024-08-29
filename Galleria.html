@@ -2,56 +2,55 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="./CSS/testisheet.css">
-  <link rel="icon" href="./kuvat/paintbrush.svg" type="image/gif/png/jpg/svg">
-  <script src="./Javascript/script.js"></script>
-  <title>Galleria</title>
+  <meta charset="UTF-8"> <!-- Määrittää merkistön koodauksen (UTF-8) -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Varmistaa, että sivu on responsiivinen ja skaalautuu oikein eri laitteilla -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <!-- Lataa Bootstrapin tyylit -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!-- Lataa jQueryn -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> <!-- Lataa Bootstrapin JavaScript -->
+  <link rel="stylesheet" href="./CSS/testisheet.css"> <!-- Lataa oma CSS-tiedosto -->
+  <link rel="icon" href="./kuvat/paintbrush.svg" type="image/gif/png/jpg/svg"> <!-- Määrittää sivun faviconin -->
+  <script src="./Javascript/script.js"></script> <!-- Lataa oma JavaScript-tiedosto -->
+  <title>Galleria</title> <!-- Sivun otsikko -->
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+  <nav class="navbar navbar-inverse"> <!-- Navigointipalkki Bootstrapin tyylillä -->
+    <div class="container-fluid"> <!-- Sisältö on responsiivisesti keskitetty -->
       <div class="navbar-header">
-        <object data="./kuvat/paintbrush.svg" type="image/svg+xml">
+        <object data="./kuvat/paintbrush.svg" type="image/svg+xml"> <!-- Näyttää SVG-kuvakkeen -->
         </object>
-        <a class="navbar-brand" href="index.html">Kotkantien Maalaus ja Tapetointi</a>
+        <a class="navbar-brand" href="index.html">Kotkantien Maalaus ja Tapetointi</a> <!-- Navigointilinkki -->
       </div>
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav"> <!-- Navigointivalikko -->
         <li><a href="index.html">Kotisivu</a></li>
         <li><a href="Palvelut.html">Palvelut</a></li>
-        <li class="active"><a href="Galleria.html">Galleria</a></li>
+        <li class="active"><a href="Galleria.html">Galleria</a></li> <!-- Aktiivinen sivu -->
         <li><a href="Värien_testaus.html">Värien testaus</a></li>
         <li><a href="Ota_yhteyttä.html">Ota yhteyttä</a></li>
       </ul>
     </div>
   </nav>
   <div class="row">
-    <div class="column" >
-      <h2>Maalaus</h2>
-      <p>Tällä puolella näät meidän hienot maalaus työt.</p>
-      <img src="./kuvat/maalaus1.webp" width="850px" height="500px">
+    <div class="column">
+      <h2>Maalaus</h2> <!-- Otsikko -->
+      <p>Tällä puolella näät meidän hienot maalaus työt.</p> <!-- Kuvateksti -->
+      <img src="./kuvat/maalaus1.webp" width="850px" height="500px"> <!-- Kuvagalleria -->
       <img src="./kuvat/maalaus2.jpg" width="850px" height="500px">
       <img src="./kuvat/maalaus3.webp" width="850px" height="500px">
       <img src="./kuvat/maalaus4.jpg" width="850px" height="500px">
       <img src="./kuvat/maalaus5.jfif" width="850px" height="500px">
-      
     </div>
-    <div class="column" >
-      <h2>Tapetointi</h2>
-      <p>Tällä puolella näät meidän hienot tapetointi työt.</p>
-      <img src="./kuvat/tapetointi1.webp" width="850px" height="500px">
+    <div class="column">
+      <h2>Tapetointi</h2> <!-- Otsikko -->
+      <p>Tällä puolella näät meidän hienot tapetointi työt.</p> <!-- Kuvateksti -->
+      <img src="./kuvat/tapetointi1.webp" width="850px" height="500px"> <!-- Kuvagalleria -->
       <img src="./kuvat/tapetointi2.webp" width="850px" height="500px">
       <img src="./kuvat/tapetointi3.jpg" width="850px" height="500px">
       <img src="./kuvat/tapetointi4.jfif" width="850px" height="500px">
       <img src="./kuvat/tapetointi5.jpg" width="850px" height="500px">
     </div>
   </div>
-  <footer style="background-color: #eee6d3;">
+  <footer style="background-color: #eee6d3;"> <!-- Yksinkertainen alatunniste -->
     <div class="container p-4">
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4">
@@ -84,7 +83,7 @@
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505864959!2d25.508349977652486!3d65.00146934481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723700718454!5m2!1sen!2sfi"
             width="400" height="200" style="border: 0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerpolicy="no-referrer-when-downgrade"></iframe> <!-- Upotettu Google Maps -kartta -->
         </div>
       </div>
     </div>
@@ -93,7 +92,6 @@
     </div>
     <!-- Copyright -->
   </footer>
-
 
 </body>
 

@@ -2,27 +2,43 @@
 <html lang="en">
 
 <head>
+  <!-- Määrittää dokumentin merkistökoodauksen (UTF-8) -->
   <meta charset="UTF-8">
+  <!-- Määrittää näkymän alueen, jotta sivu on responsiivinen eri laitteilla -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Linkittää Bootstrapin CSS-tiedoston tyylit -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
+  <!-- Linkittää jQueryn JavaScript-kirjaston -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Linkittää Bootstrapin JavaScript-tiedoston -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <!-- Linkittää oman CSS-tyylitiedoston -->
   <link rel="stylesheet" href="./CSS/testisheet.css">
-  <link rel="icon" href="./kuvat/paintbrush.svg" type="image/gif/png/jpg/svg">
+  
+  <!-- Määrittää faviconin (sivuston kuvake) -->
+  <link rel="icon" href="./kuvat/paintbrush.svg" type="image/svg+xml">
+  
+  <!-- Linkittää oman JavaScript-tiedoston -->
   <script src="./Javascript/script.js"></script>
- 
+  
   <title>Kotisivu</title>
 </head>
 
 <body>
+  <!-- Navigointipalkki Bootstrapin navbar-luokalla -->
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <object data="./kuvat/paintbrush.svg" type="image/svg+xml">
-        </object>
+        <!-- SVG-kuvake yrityksen logona -->
+        <object data="./kuvat/paintbrush.svg" type="image/svg+xml"></object>
+        <!-- Yrityksen nimi ja linkki kotisivulle -->
         <a class="navbar-brand" href="index.html">Kotkantien Maalaus ja Tapetointi</a>
       </div>
       <ul class="nav navbar-nav">
+        <!-- Navigointilinkit -->
         <li class="active"><a href="index.html">Kotisivu</a></li>
         <li><a href="Palvelut.html">Palvelut</a></li>
         <li><a href="Galleria.html">Galleria</a></li>
@@ -31,11 +47,15 @@
       </ul>
     </div>
   </nav>
+  
+  <!-- Etusivun kuva ja otsikko -->
   <div class="etusivu_kuva">
     <p class="otsikko_etusivu">Kotkantien Maalaus ja Tapetointi</p>
   </div>
+  
+  <!-- Karuselli arvosteluille -->
   <div class="review-carousel">
-    <!-- Karusellin arvostelut -->
+    <!-- Yksi arvostelunäyttö kerrallaan, muut ovat piilossa -->
     <div class="review-item active">
         <p>★★★★★</p>
         <p><strong>Erinomainen kokemus!</strong></p>
@@ -72,14 +92,14 @@
         <button id="prev-btn">◀️ Edellinen</button>
         <button id="next-btn">Seuraava ▶️</button>
     </div>
-</div>
-
+  </div>
   
-  
+  <!-- Footer-osio -->
   <footer style="background-color: #eee6d3;">
     <div class="container p-4">
       <div class="row">
         <div class="col-lg-6 col-md-12 mb-4">
+          <!-- Yrityksen esittelyteksti -->
           <h5 class="mb-3 text-dark">Meistä</h5>
           <p>
             Kotkantien maalaus ja tapentointi tekee sinulle semmoisen seinän minkä sinä täsmälleen haluat. Meilla on
@@ -88,6 +108,7 @@
           </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
+          <!-- Yhteystiedot ja sosiaalisen median linkit -->
           <h5 class="mb-3 text-dark">Linkit</h5>
           <ul class="list-unstyled mb-0">
             <li class="mb-1">
@@ -106,6 +127,7 @@
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
+          <!-- Google Maps -kartta yrityksen sijainnista -->
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505864959!2d25.508349977652486!3d65.00146934481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723700718454!5m2!1sen!2sfi"
             width="400" height="200" style="border: 0;" allowfullscreen="" loading="lazy"
@@ -113,12 +135,11 @@
         </div>
       </div>
     </div>
+    <!-- Tekijänoikeustiedot -->
     <div class="text-center p-3">
       Kotkantien Maalaus ja Tapetointi 2024 ©
     </div>
-    <!-- Copyright -->
   </footer>
-
 
 </body>
 
