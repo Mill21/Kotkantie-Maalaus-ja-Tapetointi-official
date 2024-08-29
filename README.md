@@ -24,7 +24,32 @@ Tässä on Ota yhteyttä sivu
 
 ## Kuvia koodista
 
+Tässä koodissa näytetään Navbaaria.
+
+``` HTML
+  <!-- Navigointipalkki Bootstrapin navbar-luokalla -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- SVG-kuvake yrityksen logona -->
+        <object data="./kuvat/paintbrush.svg" type="image/svg+xml"></object>
+        <!-- Yrityksen nimi ja linkki kotisivulle -->
+        <a class="navbar-brand" href="index.html">Kotkantien Maalaus ja Tapetointi</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <!-- Navigointilinkit -->
+        <li class="active"><a href="index.html">Kotisivu</a></li>
+        <li><a href="Palvelut.html">Palvelut</a></li>
+        <li><a href="Galleria.html">Galleria</a></li>
+        <li><a href="Värien_testaus.html">Värien testaus</a></li>
+        <li><a href="Ota_yhteyttä.html">Ota yhteyttä</a></li>
+      </ul>
+    </div>
+  </nav>
+```
+
 Tässä koodissa näytetään arvostelu karuselli etusivulta.
+
 ``` HTML
 <div class="review-carousel">
     <!-- Yksi arvostelunäyttö kerrallaan, muut ovat piilossa -->
@@ -65,3 +90,4 @@ Tässä koodissa näytetään arvostelu karuselli etusivulta.
         <button id="next-btn">Seuraava ▶️</button>
     </div>
   </div>
+```
