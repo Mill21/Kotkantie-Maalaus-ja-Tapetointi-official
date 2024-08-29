@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
- 
+
 }
 
 .box-container {
@@ -23,10 +23,12 @@ body {
     padding: 10px;
     flex: 1;
 }
-.palvelu_otsikko{
+
+.palvelu_otsikko {
     text-align: center;
     font-size: 40px;
 }
+
 .box {
     border: 1px solid black;
     padding: 20px;
@@ -105,7 +107,8 @@ footer {
     background-color: #eee6d3;
     width: 100%;
     padding: 20px;
-    margin-top: auto; /* Push the footer to the bottom if the content is less */
+    margin-top: auto;
+    /* Push the footer to the bottom if the content is less */
     box-sizing: border-box;
 }
 
@@ -177,43 +180,47 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 100;
-    height: 500px; /* Set this to an appropriate height */
-    width:100vw;
+    height: 500px;
+    /* Set this to an appropriate height */
+    width: 100vw;
     margin-top: -20px;
-    
+
 }
-.otsikko_etusivu{
+
+.otsikko_etusivu {
     font-size: 60px;
     text-align: center;
     color: red;
     margin-top: 200px;
     text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
 }
+
 * {
     box-sizing: border-box;
-  }
-  
-  /* Create two equal columns that floats next to each other */
-  .column {
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
     float: left;
     width: 50%;
     padding: 20px;
     font-size: 18px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
     font-size: 18;
     font-family: Arial, Helvetica, sans-serif;
-  }
-  @media (max-width: 768px) {
+}
+
+@media (max-width: 768px) {
     .column {
         width: 100%;
         float: none;
@@ -224,10 +231,20 @@ footer {
         margin-bottom: 20px;
         /* Adds some space between images */
     }
+
     img {
         width: 100%;
         height: auto;
         /* Ensures images are responsive */
+    }
+
+    .box {
+        border: 1px solid black;
+        padding: 20px;
+        background-color: lightblue;
+        width: 80%;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-sizing: border-box;
     }
 }
 
@@ -273,5 +290,3 @@ footer {
 .carousel-controls button:hover {
     background-color: dodgerblue;
 }
-
-

@@ -3,13 +3,20 @@
 
 <head>
   <meta charset="UTF-8"> <!-- Määrittää merkistön UTF-8:ksi, joka tukee monimutkaisempia merkkejä -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Varmistaa, että sivu on responsiivinen mobiililaitteilla -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> <!-- Bootstrapin ulkoasun määrittävä CSS -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!-- jQueryn JavaScript-kirjasto -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> <!-- Bootstrapin JavaScript, joka mahdollistaa interaktiiviset komponentit -->
-  <link rel="stylesheet" href="./CSS/testisheet.css"> <!-- Sivuston oma CSS-tiedosto, joka voi sisältää mukautettuja tyylejä -->
-  <link rel="icon" href="./kuvat/paintbrush.svg" type="image/gif/png/jpg/svg"> <!-- Sivun favicon, joka näkyy selainvälilehdessä -->
-  <script src="./Javascript/script.js"></script> <!-- Sivuston oma JavaScript-tiedosto, joka voi sisältää sivun toiminnallisuuksia -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Varmistaa, että sivu on responsiivinen mobiililaitteilla -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- Bootstrapin ulkoasun määrittävä CSS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- jQueryn JavaScript-kirjasto -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- Bootstrapin JavaScript, joka mahdollistaa interaktiiviset komponentit -->
+  <link rel="stylesheet" href="./CSS/testisheet.css">
+  <!-- Sivuston oma CSS-tiedosto, joka voi sisältää mukautettuja tyylejä -->
+  <link rel="icon" href="./kuvat/paintbrush.svg" type="image/gif/png/jpg/svg">
+  <!-- Sivun favicon, joka näkyy selainvälilehdessä -->
+  <script src="./Javascript/script.js"></script>
+  <!-- Sivuston oma JavaScript-tiedosto, joka voi sisältää sivun toiminnallisuuksia -->
   <title>Värien Testaus</title> <!-- Sivun otsikko, joka näkyy selainvälilehdessä -->
 </head>
 
@@ -20,14 +27,16 @@
       <div class="navbar-header">
         <!-- Logo -->
         <object data="./kuvat/paintbrush.svg" type="image/svg+xml"></object> <!-- SVG-logo -->
-        <a class="navbar-brand" href="index.html">Kotkantien Maalaus ja Tapetointi</a> <!-- Navigointilinkki kotisivulle -->
+        <a class="navbar-brand" href="index.html">Kotkantien Maalaus ja Tapetointi</a>
+        <!-- Navigointilinkki kotisivulle -->
       </div>
       <!-- Navigointilinkit -->
       <ul class="nav navbar-nav">
         <li><a href="index.html">Kotisivu</a></li> <!-- Linkki kotisivulle -->
         <li><a href="Palvelut.html">Palvelut</a></li> <!-- Linkki palveluihin -->
         <li><a href="Galleria.html">Galleria</a></li> <!-- Linkki galleriaan -->
-        <li class="active"><a href="Värien_testaus.html">Värien testaus</a></li> <!-- Aktiivinen linkki (korostettu) värien testaukseen -->
+        <li class="active"><a href="Värien_testaus.html">Värien testaus</a></li>
+        <!-- Aktiivinen linkki (korostettu) värien testaukseen -->
         <li><a href="Ota_yhteyttä.html">Ota yhteyttä</a></li> <!-- Linkki yhteystietoihin -->
       </ul>
     </div>
@@ -41,25 +50,36 @@
       <button id="reset-button">Poista Värit</button> <!-- Painike, jolla voi poistaa värit -->
       <div class="test-area" id="test-area-2">Pinta 2</div> <!-- Toinen testausalue -->
     </div>
-    
+
     <!-- Väri-palette -->
     <div class="palette">
       <div class="color" data-color="#DD4132" style="background-color: #DD4132;">Fiesta</div> <!-- Väri: Fiesta -->
-      <div class="color" data-color="#9E1030" style="background-color: #9E1030;">Jester Red</div> <!-- Väri: Jester Red -->
+      <div class="color" data-color="#9E1030" style="background-color: #9E1030;">Jester Red</div>
+      <!-- Väri: Jester Red -->
       <div class="color" data-color="#FE840E" style="background-color: #FE840E;">Turmeric</div> <!-- Väri: Turmeric -->
-      <div class="color" data-color="#FF6F61" style="background-color: #FF6F61;">Living Coral</div> <!-- Väri: Living Coral -->
-      <div class="color" data-color="#C62168" style="background-color: #C62168;">Pink Peacock</div> <!-- Väri: Pink Peacock -->
-      <div class="color" data-color="#8D9440" style="background-color: #8D9440;">Pepper Stem</div> <!-- Väri: Pepper Stem -->
-      <div class="color" data-color="#FFD662" style="background-color: #FFD662;">Aspen Gold</div> <!-- Väri: Aspen Gold -->
-      <div class="color" data-color="#00539C" style="background-color: #00539C;">Princess Blue</div> <!-- Väri: Princess Blue -->
+      <div class="color" data-color="#FF6F61" style="background-color: #FF6F61;">Living Coral</div>
+      <!-- Väri: Living Coral -->
+      <div class="color" data-color="#C62168" style="background-color: #C62168;">Pink Peacock</div>
+      <!-- Väri: Pink Peacock -->
+      <div class="color" data-color="#8D9440" style="background-color: #8D9440;">Pepper Stem</div>
+      <!-- Väri: Pepper Stem -->
+      <div class="color" data-color="#FFD662" style="background-color: #FFD662;">Aspen Gold</div>
+      <!-- Väri: Aspen Gold -->
+      <div class="color" data-color="#00539C" style="background-color: #00539C;">Princess Blue</div>
+      <!-- Väri: Princess Blue -->
       <div class="color" data-color="#755139" style="background-color: #755139;">Toffee</div> <!-- Väri: Toffee -->
-      <div class="color" data-color="#D69C2F" style="background-color: #D69C2F;">Mango Mojito</div> <!-- Väri: Mango Mojito -->
-      <div class="color" data-color="#616247" style="background-color: #616247;">Terrarium Moss</div> <!-- Väri: Terrarium Moss -->
-      <div class="color" data-color="#E8B5CE" style="background-color: #E8B5CE;">Sweet Lilac</div> <!-- Väri: Sweet Lilac -->
+      <div class="color" data-color="#D69C2F" style="background-color: #D69C2F;">Mango Mojito</div>
+      <!-- Väri: Mango Mojito -->
+      <div class="color" data-color="#616247" style="background-color: #616247;">Terrarium Moss</div>
+      <!-- Väri: Terrarium Moss -->
+      <div class="color" data-color="#E8B5CE" style="background-color: #E8B5CE;">Sweet Lilac</div>
+      <!-- Väri: Sweet Lilac -->
       <div class="color" data-color="#D2C29D" style="background-color: #D2C29D;">Soybean</div> <!-- Väri: Soybean -->
       <div class="color" data-color="#343148" style="background-color: #343148;">Eclipse</div> <!-- Väri: Eclipse -->
-      <div class="color" data-color="#F0EAD6" style="background-color: #F0EAD6;">Sweet Corn</div> <!-- Väri: Sweet Corn -->
-      <div class="color" data-color="#615550" style="background-color: #615550;">Brown Granite</div> <!-- Väri: Brown Granite -->
+      <div class="color" data-color="#F0EAD6" style="background-color: #F0EAD6;">Sweet Corn</div>
+      <!-- Väri: Sweet Corn -->
+      <div class="color" data-color="#615550" style="background-color: #615550;">Brown Granite</div>
+      <!-- Väri: Brown Granite -->
     </div>
   </div>
 
@@ -68,47 +88,51 @@
   <!-- Alatunniste -->
   <footer style="background-color: #eee6d3;">
     <div class="container p-4">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 mb-4">
-                <h5 class="mb-3 text-dark">Meistä</h5>
-                <p>
-                    Kotkantien maalaus ja tapentointi tekee sinulle semmoisen seinän minkä sinä täsmälleen haluat. Meilla on tiimissä 10 mallikasta tekijää joille ei ole ikinä tullut huonoa palautetta. Tavoitteemme on aina ylittää asiakkaamme odotukset meidän upealla laadullamme. Joten ota meihin yhteyttä ja eiköhän aleta hommiin!
-                </p>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <h5 class="mb-3 text-dark">Linkit</h5>
-                <ul class="list-unstyled mb-0">
-                    <li class="mb-1">
-                        <a href="#!" style="color: #4f4f4f;">Yritys: Kotkantien Maalaus ja Tapetointi</a>
-                    </li>
-                    <li class="mb-1">
-                        <a href="#!" style="color: #4f4f4f;">Osoite: Kotkantie 3, 90100 Oulu</a>
-                    </li>
-                    <li class="mb-1">
-                        <a href="#!" style="color: #4f4f4f;">Puhelin: 044 999 888 99</a>
-                    </li>
-                    <li class="mb-1">
-                        <a href="#!" style="color: #4f4f4f;">Sähköposti: info@kotkantienmaalaus.fi</a>
-                    </li>
-                    <li class="mb-1">
-                        <a href="https://www.youtube.com/channel/UCaq6f6DGoCAq4YWvNyP5azQ" target="_blank" style="color: #4f4f4f;">Youtube</a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/osao_tekniikka/" target="_blank" style="color: #4f4f4f;">Instagram</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-4">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505864959!2d25.508349977652486!3d65.00146934481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723700718454!5m2!1sen!2sfi"
-                        width="400" height="200" style="border: 0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <h5 class="mb-3 text-dark">Meistä</h5>
+          <p>
+            Kotkantien maalaus ja tapentointi tekee sinulle semmoisen seinän minkä sinä täsmälleen haluat. Meilla on
+            tiimissä 10 mallikasta tekijää joille ei ole ikinä tullut huonoa palautetta. Tavoitteemme on aina ylittää
+            asiakkaamme odotukset meidän upealla laadullamme. Joten ota meihin yhteyttä ja eiköhän aleta hommiin!
+          </p>
         </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <h5 class="mb-3 text-dark">Linkit</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Yritys: Kotkantien Maalaus ja Tapetointi</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Osoite: Kotkantie 3, 90100 Oulu</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Puhelin: 044 999 888 99</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Sähköposti: info@kotkantienmaalaus.fi</a>
+            </li>
+            <li class="mb-1">
+              <a href="https://www.youtube.com/channel/UCaq6f6DGoCAq4YWvNyP5azQ" target="_blank"
+                style="color: #4f4f4f;">Youtube</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/osao_tekniikka/" target="_blank" style="color: #4f4f4f;">Instagram</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-4">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1686.0773505864959!2d25.508349977652486!3d65.00146934481728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4681cd5aac2e0dcb%3A0xd0f738d563fe562d!2sKotkantie%203%2C%2090250%20Oulu!5e0!3m2!1sen!2sfi!4v1723700718454!5m2!1sen!2sfi"
+            width="400" height="200" style="border: 0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
     </div>
     <div class="text-center p-3">
-        Kotkantien Maalaus ja Tapetointi 2024 ©
+      Kotkantien Maalaus ja Tapetointi 2024 ©
     </div>
-</footer>
+  </footer>
 </body>
 
 </html>
