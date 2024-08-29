@@ -22,7 +22,8 @@ Tässä on Värien testaus sivu
 
 Tässä on Ota yhteyttä sivu
 
-![image](https://github.com/user-attachments/assets/501ecc69-d131-4b53-93c0-9c002018e26b)
+![image](https://github.com/user-attachments/assets/20fd9f4e-5f5e-4f37-a36a-6ea03d69cb33)
+
 
 ## Kuvia koodista
 
