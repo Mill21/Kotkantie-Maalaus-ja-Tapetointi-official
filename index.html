@@ -1,29 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 
 <head>
   <!-- Määrittää dokumentin merkistökoodauksen (UTF-8) -->
   <meta charset="UTF-8">
   <!-- Määrittää näkymän alueen, jotta sivu on responsiivinen eri laitteilla -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
   <!-- Linkittää Bootstrapin CSS-tiedoston tyylit -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  
+
   <!-- Linkittää jQueryn JavaScript-kirjaston -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <!-- Linkittää Bootstrapin JavaScript-tiedoston -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
+
   <!-- Linkittää oman CSS-tyylitiedoston -->
   <link rel="stylesheet" href="./CSS/testisheet.css">
-  
+
   <!-- Määrittää faviconin (sivuston kuvake) -->
   <link rel="icon" href="./kuvat/paintbrush.svg" type="image/svg+xml">
-  
+
   <!-- Linkittää oman JavaScript-tiedoston -->
   <script src="./Javascript/script.js"></script>
-  
+
   <title>Kotisivu</title>
 </head>
 
@@ -47,53 +47,56 @@
       </ul>
     </div>
   </nav>
-  
+
   <!-- Etusivun kuva ja otsikko -->
   <div class="etusivu_kuva">
     <p class="otsikko_etusivu">Kotkantien Maalaus ja Tapetointi</p>
   </div>
-  
+
   <!-- Karuselli arvosteluille -->
   <div class="review-carousel">
     <!-- Yksi arvostelunäyttö kerrallaan, muut ovat piilossa -->
     <div class="review-item active">
-        <p>★★★★★</p>
-        <p><strong>Erinomainen kokemus!</strong></p>
-        <p>"Palvelu oli loistavaa ja moitteetonta. Suosittelen ehdottomasti kaikille!" - Pekka Pouta.</p>
+      <p>★★★★★</p>
+      <p><strong>Erinomainen kokemus!</strong></p>
+      <p>"Palvelu oli loistavaa ja moitteetonta. Suosittelen ehdottomasti kaikille!" - Pekka Pouta.</p>
     </div>
     <div class="review-item">
-        <p>★★★★★</p>
-        <p><strong>Aivan huippu!</strong></p>
-        <p>"Työntekijät olivat todella ystävällisiä ja hauskoja. Työt tehtiin huolellisesti ja tulos oli mahtava!" - Iines Ankka.</p>
+      <p>★★★★★</p>
+      <p><strong>Aivan huippu!</strong></p>
+      <p>"Työntekijät olivat todella ystävällisiä ja hauskoja. Työt tehtiin huolellisesti ja tulos oli mahtava!" - Iines
+        Ankka.</p>
     </div>
     <div class="review-item">
-        <p>★★★★★</p>
-        <p><strong>Yksinkertaisesti paras!</strong></p>
-        <p>"Kaikki meni juuri kuten oli luvattu. Nyt aina, kun kävelen olohuoneeseeni en voi kuin ihailla" - Juha-Pekka Sillan-alla.</p>
+      <p>★★★★★</p>
+      <p><strong>Yksinkertaisesti paras!</strong></p>
+      <p>"Kaikki meni juuri kuten oli luvattu. Nyt aina, kun kävelen olohuoneeseeni en voi kuin ihailla" - Juha-Pekka
+        Sillan-alla.</p>
     </div>
     <div class="review-item">
-        <p>★★★★★</p>
-        <p><strong>Mahtava kokemus!</strong></p>
-        <p>"Yllätyin laadusta todella positiivisesti. Hinta-laatusuhde erinomainen!" - Kalle Keränen.</p>
+      <p>★★★★★</p>
+      <p><strong>Mahtava kokemus!</strong></p>
+      <p>"Yllätyin laadusta todella positiivisesti. Hinta-laatusuhde erinomainen!" - Kalle Keränen.</p>
     </div>
     <div class="review-item">
-        <p>★★★★★</p>
-        <p><strong>Täydellinen palvelu!</strong></p>
-        <p>"Kaikki meni juuri niin kuin piti, ei mitään moitittavaa. Suosittelen lämpimästi!" - Raija Penttinen.</p>
+      <p>★★★★★</p>
+      <p><strong>Täydellinen palvelu!</strong></p>
+      <p>"Kaikki meni juuri niin kuin piti, ei mitään moitittavaa. Suosittelen lämpimästi!" - Raija Penttinen.</p>
     </div>
     <div class="review-item">
-        <p>★★★★★</p>
-        <p><strong>Tosi hyvä paikka!</strong></p>
-        <p>"Ystävälliset työntekijät ja tuli laadukas seinä. Jos tulee taas tarvetta tilaamme täältä ihan varmasti!" - Eino Leino.</p>
+      <p>★★★★★</p>
+      <p><strong>Tosi hyvä paikka!</strong></p>
+      <p>"Ystävälliset työntekijät ja tuli laadukas seinä. Jos tulee taas tarvetta tilaamme täältä ihan varmasti!" -
+        Eino Leino.</p>
     </div>
 
     <!-- Karusellin ohjausnapit -->
     <div class="carousel-controls">
-        <button id="prev-btn">◀️ Edellinen</button>
-        <button id="next-btn">Seuraava ▶️</button>
+      <button id="prev-btn">◀️ Edellinen</button>
+      <button id="next-btn">Seuraava ▶️</button>
     </div>
   </div>
-  
+
   <!-- Footer-osio -->
   <footer style="background-color: #eee6d3;">
     <div class="container p-4">
