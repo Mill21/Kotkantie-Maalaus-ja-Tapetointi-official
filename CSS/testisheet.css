@@ -31,7 +31,7 @@ body {
     border: 1px solid black;
     padding: 20px;
     background-color: lightblue;
-    width: 80%;
+    width: 40%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
 }
@@ -52,6 +52,7 @@ input[type="radio"] {
 
 /* Additional styling for the form elements */
 input[type="text"],
+input[type="email"],
 input[type="submit"] {
     margin-bottom: 10px;
     width: 100%;
