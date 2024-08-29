@@ -24,7 +24,7 @@ Tässä on Ota yhteyttä sivu
 
 ## Kuvia koodista
 
-Tässä koodissa näytetään Navbaaria.
+Tässä koodissa näytetään navbaaria.
 
 ``` HTML
   <!-- Navigointipalkki Bootstrapin navbar-luokalla -->
@@ -91,6 +91,53 @@ Tässä koodissa näytetään arvostelu karuselli etusivulta.
     </div>
   </div>
 ```
+Tässä koodissa näytetään arvosteluiden CSS osiota
+
+``` CSS
+/* Karusellin säiliö */
+.review-carousel {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background-color: lightblue;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Karusellin arvostelut */
+.review-item {
+    display: none;
+}
+
+/* Karusellin näkyvissä oleva arvostelu */
+.review-item.active {
+    display: block;
+}
+
+/* Nuoli-napit */
+.carousel-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.carousel-controls button {
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.carousel-controls button:hover {
+    background-color: dodgerblue;
+}
+```
+
 Tässä koodissa näytetään footer.
 
 ``` HTML
@@ -140,4 +187,103 @@ Tässä koodissa näytetään footer.
       Kotkantien Maalaus ja Tapetointi 2024 ©
     </div>
   </footer>
+```
+Tässä koodissa näytään galleria sivun kuvia
+
+``` HTML
+<div class="row">
+    <div class="column">
+      <h2>Maalaus</h2> <!-- Otsikko -->
+      <p>Tällä puolella näät meidän hienot maalaus työt.</p> <!-- Kuvateksti -->
+      <img src="./kuvat/maalaus1.webp" width="850px" height="500px"> <!-- Kuvagalleria -->
+      <img src="./kuvat/maalaus2.jpg" width="850px" height="500px">
+      <img src="./kuvat/maalaus3.webp" width="850px" height="500px">
+      <img src="./kuvat/maalaus4.jpg" width="850px" height="500px">
+      <img src="./kuvat/maalaus5.jfif" width="850px" height="500px">
+    </div>
+    <div class="column">
+      <h2>Tapetointi</h2> <!-- Otsikko -->
+      <p>Tällä puolella näät meidän hienot tapetointi työt.</p> <!-- Kuvateksti -->
+      <img src="./kuvat/tapetointi1.webp" width="850px" height="500px"> <!-- Kuvagalleria -->
+      <img src="./kuvat/tapetointi2.webp" width="850px" height="500px">
+      <img src="./kuvat/tapetointi3.jpg" width="850px" height="500px">
+      <img src="./kuvat/tapetointi4.jfif" width="850px" height="500px">
+      <img src="./kuvat/tapetointi5.jpg" width="850px" height="500px">
+    </div>
+  </div>
+```
+Tässä koodissa näytetään värien testaus sivua
+
+``` HTML
+  <!-- Sisältöalue -->
+  <div class="alue">
+    <div class="test-areas">
+      <!-- Testausalueet -->
+      <div class="test-area" id="test-area-1">Pinta 1</div> <!-- Ensimmäinen testausalue -->
+      <button id="reset-button">Poista Värit</button> <!-- Painike, jolla voi poistaa värit -->
+      <div class="test-area" id="test-area-2">Pinta 2</div> <!-- Toinen testausalue -->
+    </div>
+    
+    <!-- Väri-palette -->
+    <div class="palette">
+      <div class="color" data-color="#DD4132" style="background-color: #DD4132;">Fiesta</div> <!-- Väri: Fiesta -->
+      <div class="color" data-color="#9E1030" style="background-color: #9E1030;">Jester Red</div> <!-- Väri: Jester Red -->
+      <div class="color" data-color="#FE840E" style="background-color: #FE840E;">Turmeric</div> <!-- Väri: Turmeric -->
+      <div class="color" data-color="#FF6F61" style="background-color: #FF6F61;">Living Coral</div> <!-- Väri: Living Coral -->
+      <div class="color" data-color="#C62168" style="background-color: #C62168;">Pink Peacock</div> <!-- Väri: Pink Peacock -->
+      <div class="color" data-color="#8D9440" style="background-color: #8D9440;">Pepper Stem</div> <!-- Väri: Pepper Stem -->
+      <div class="color" data-color="#FFD662" style="background-color: #FFD662;">Aspen Gold</div> <!-- Väri: Aspen Gold -->
+      <div class="color" data-color="#00539C" style="background-color: #00539C;">Princess Blue</div> <!-- Väri: Princess Blue -->
+      <div class="color" data-color="#755139" style="background-color: #755139;">Toffee</div> <!-- Väri: Toffee -->
+      <div class="color" data-color="#D69C2F" style="background-color: #D69C2F;">Mango Mojito</div> <!-- Väri: Mango Mojito -->
+      <div class="color" data-color="#616247" style="background-color: #616247;">Terrarium Moss</div> <!-- Väri: Terrarium Moss -->
+      <div class="color" data-color="#E8B5CE" style="background-color: #E8B5CE;">Sweet Lilac</div> <!-- Väri: Sweet Lilac -->
+      <div class="color" data-color="#D2C29D" style="background-color: #D2C29D;">Soybean</div> <!-- Väri: Soybean -->
+      <div class="color" data-color="#343148" style="background-color: #343148;">Eclipse</div> <!-- Väri: Eclipse -->
+      <div class="color" data-color="#F0EAD6" style="background-color: #F0EAD6;">Sweet Corn</div> <!-- Väri: Sweet Corn -->
+      <div class="color" data-color="#615550" style="background-color: #615550;">Brown Granite</div> <!-- Väri: Brown Granite -->
+    </div>
+  </div>
+
+  <br>
+```
+
+Tässä koodissa näytetään värien testauksen Javascriptiä
+
+
+``` Js
+
+// Kun dokumentti on ladattu ja valmis
+$(document).ready(function () {
+    let selectedArea = null;
+
+    // Valitse testialue, kun sitä klikataan
+    $('.test-area').on('click', function () {
+        // Poista 'selected' luokka aiemmin valitulta alueelta, jos se on olemassa
+        if (selectedArea) {
+            selectedArea.removeClass('selected');
+        }
+        // Merkitse klikattu alue valituksi
+        selectedArea = $(this);
+        selectedArea.addClass('selected');
+    });
+
+    // Sovella väriä valittuun testialueeseen, kun väri klikataan
+    $('.color').on('click', function () {
+        if (selectedArea) {
+            const color = $(this).data('color'); // Hae väri data-attribuutista
+            selectedArea.css('background-color', color); // Aseta taustaväri
+            // Poista valinta ja nollaa valittu alue
+            selectedArea.removeClass('selected');
+            selectedArea = null;
+        }
+    });
+
+    // Nollaa värit napin klikkauksella
+    $('#reset-button').on('click', function () {
+        $('.test-area').css('background-color', '').removeClass('selected'); // Tyhjennä taustavärit ja poista valinta
+        selectedArea = null;
+    });
+});
+
 ```
