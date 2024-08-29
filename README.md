@@ -287,3 +287,117 @@ $(document).ready(function () {
 });
 
 ```
+
+Tässä koodissa näytetään ota yhteyttä sivun koodia
+
+``` HTML
+
+<div class="box-container">
+        <div class="box">
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="Name" required><br>
+                <label for="email">Sähköposti:</label><br>
+                <input type="text" id="email" name="email" required><br><br>
+                <input type="radio" id="maalaus" name="aihe" required value="MAALAUS">
+                <label for="maalaus">Maalaus</label><br>
+                <input type="radio" id="tapetointi" name="aihe" required value="TAPETOINTI">
+                <label for="tapetointi">Tapetointi</label><br>
+                <input type="radio" id="muu" name="aihe" required value="MUU">
+                <label for="muu">Muu aihe</label><br><br>
+                <label for="muutxt">Muu aihe: (optional)</label><br>
+                <input type="text" id="muutxt" name="Muutxt"><br><br>
+                <label for="viesti">Viesti:</label><br>
+                <input type="text" id="viesti" name="Viesti" required><br><br>
+                <input type="submit" value="Lähetä">
+                <h3>Löydät meidät myös Instagramista ja Youtubesta!</h3>
+                <div class="social-buttons">
+                    <a href="https://www.instagram.com/osao_tekniikka/" target="_blank">
+                        <img src="kuvat/instagram.png" alt="Instagram" class="social-icon">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCaq6f6DGoCAq4YWvNyP5azQ" target="_blank">
+                        <img src="kuvat/youtube.webp" alt="YouTube" class="social-icon" >
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+```
+
+Tässä koodissa näytetään ota yhteyttä sivun CSS koodia
+
+``` CSS
+.box {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+/* Make radio buttons bigger */
+input[type="radio"] {
+    transform: scale(1.3);
+    margin-right: 10px;
+}
+
+/* Additional styling for the form elements */
+input[type="text"],
+input[type="submit"] {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+    color: black;
+    background-color: deepskyblue;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: dodgerblue
+}
+
+/* Styling for labels */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+/* Social media buttons */
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    /* Space between icons */
+    margin-top: 20px;
+    /* Space above the social media icons */
+}
+
+.social-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the area */
+}
+
+```
